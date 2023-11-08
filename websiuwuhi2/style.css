@@ -1,0 +1,150 @@
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7rem;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+    margin-left:25px ;
+    font-size: 20px;
+    padding: 8px 0;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 3px solid hsla(28, 100%, 59%, 0) 100%, 59%;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #FF9130;
+    color: orange;
+}
+
+.active{
+    color: #FF9130;
+}
+
+.text h1{
+    text-align: left;
+}
+
+.awalan{
+    display: flex;
+    margin-top: 13rem;
+    margin-left: 24rem;
+    margin-bottom: 13rem;
+}
+
+.awalan img{
+    flex: 1;
+    margin-right: 16rem;
+    width: 320px;
+    height: 320px;
+}
+
+.text{
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.awalan .text h1{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.awalan .text p{
+    margin-right: 8rem;
+    margin-top: 2rem;
+    font-size: 0.8vw;
+}
+
+.isi1{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    padding-top: 13rem;
+    padding-left: 23rem ;
+    padding-bottom: 5rem;
+}
+
+.text1{
+    flex: 2;
+    padding: 20px;
+    text-align: left;
+    color: #000000;
+}
+
+.isi1 .text1 h1{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.isi1 .text1 p{
+    margin-right: 8rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 0.8vw;
+}
+
+
+.isi1 img{
+    flex: 1;
+    margin-right: 16rem;
+    box-shadow: 0 5px 20px 5px rgba(0,0,0,0.5);
+}
+
+.button{
+    background-color: #FF9130;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 14px;
+    border-radius: 7px;
+    border: none;
+    margin-top:2rem;
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: #FF9130;
+}
+
+.footer{
+    text-align: right;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 25px;
+    background-color: #000000;
+    color: rgb(143, 143, 143);
+    font-size: 13px;
+}
